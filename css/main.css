@@ -1,0 +1,50 @@
+.grid-container {
+    display: grid;
+}
+html {
+
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(8, auto);
+    grid-gap: 15px;
+    grid-template-areas: 
+    "head"
+    "sec1" 
+    "sec2"
+    "sec3"
+    "sec4"
+    "sec5"
+    "sec6"
+    "foot";
+    padding: 20px;
+    background-color: #000;
+}
+h1 {
+    text-align: center;
+}
+
+div {
+    border-radius: 10px;
+    background-color: #FFF;
+    flex: center;
+    font-size: 250%;
+}
+
+footer {
+    border-radius: 10px;
+    background-color: #FFF;
+    flex: center;
+
+}
